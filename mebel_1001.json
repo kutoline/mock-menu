@@ -4,27 +4,27 @@
         "item": "Корпусная мебель",
         "href": "http://mp-big-ru.local/yaroslavl/category/2059/",
         "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/4/35/18/6305ff07d43518-67596027.png",
-        "subitems": {
-            "1024": {
+        "subitems": [
+            {
                 "param_id": "1024",
                 "item": "Шкафы ",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1024/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/8/9b/c5/61fd19f7c89bc5-38368694.png"
             },
-            "1027": {
+            {
                 "param_id": "1027",
                 "item": "Гардеробные системы",
                 "is_empty": true,
                 "href": "http://mp-big-ru.local/yaroslavl/category/1027/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/c/e9/f3/61fd1a095ce9f3-18188852.png"
             },
-            "1047": {
+            {
                 "param_id": "1047",
                 "item": "Полки",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1047/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/2/d4/72/61cc5bd022d472-50208043.png"
             }
-        },
+        ],
         "subitems_count": 6,
         "subitems_url": "s3_path/korpusnaya-mebel_2059"
     },
@@ -33,26 +33,26 @@
         "item": "Мягкая мебель",
         "href": "http://mp-big-ru.local/yaroslavl/category/2087/",
         "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/a/74/68/631076e44a7468-14757439.png",
-        "subitems": {
-            "1002": {
+        "subitems": [
+            {
                 "param_id": "1002",
                 "item": "Диваны ",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1002/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/e/77/d5/61fd19971e77d5-97445207.png"
             },
-            "1012": {
+            {
                 "param_id": "1012",
                 "item": "Кресла",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1012/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/d/f3/06/61fd19b39df306-42174064.png"
             },
-            "1761": {
+            {
                 "param_id": "1761",
                 "item": "Пуфы и банкетки",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1761/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/c/46/d4/631074707c46d4-68301296.png"
             }
-        },
+        ],
         "subitems_count": 4,
         "subitems_url": "s3_path/myagkaya-mebel_2087"
     },
@@ -61,93 +61,93 @@
         "item": "Кровати и матрасы",
         "href": "http://mp-big-ru.local/yaroslavl/category/2105/",
         "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/5/d5/c5/63107733c5d5c5-00384476.png",
-        "subitems": {
-            "1077": {
+        "subitems": [
+            {
                 "param_id": "1077",
                 "item": "Кровати ",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1077/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/a/07/92/6287b46c1a0792-34468808.png"
             },
-            "1086": {
+            {
                 "param_id": "1086",
                 "item": "Матрасы",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1086/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/a/e4/a2/61fd1aa86ae4a2-09389730.png"
             }
-        }
+        ]
     },
     {
         "param_id": "2133",
         "item": "Столы и стулья",
         "href": "http://mp-big-ru.local/yaroslavl/category/2133/",
         "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/0/7c/e4/631077cf407ce4-00292943.png",
-        "subitems": {
-            "1057": {
+        "subitems": [
+             {
                 "param_id": "1057",
                 "item": "Столы ",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1057/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/4/43/37/61fd1a5d744337-51328895.png"
-            },
-            "1070": {
+              },
+             {
                 "param_id": "1070",
                 "item": "Стулья",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1070/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/9/f1/99/61fd1a7cd9f199-25896295.png"
-            },
-            "1806": {
+              },
+             {
                 "param_id": "1806",
                 "item": "Обеденные группы ",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1806/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/6/c8/e4/6287bba356c8e4-96680186.png"
-            }
-        }
+              }
+        ]
     },
     {
         "param_id": "2390",
         "item": "Кухни",
         "href": "http://mp-big-ru.local/yaroslavl/category/2390/",
         "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/8/72/19/63174a54387219-96104417.png",
-        "subitems": {
-            "2391": {
+        "subitems": [
+            {
                 "param_id": "2391",
                 "item": "Кухни модульные",
                 "href": "http://mp-big-ru.local/yaroslavl/category/2391/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/6/ce/94/63a072f7e6ce94-01716838.png"
             },
-            "2392": {
+            {
                 "param_id": "2392",
                 "item": "Готовые кухонные гарнитуры",
                 "href": "http://mp-big-ru.local/yaroslavl/category/2392/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/8/da/20/6318ae3b58da20-62659067.png"
             }
-        }
+        ]
     },
     {
         "param_id": "2077",
         "item": "Мебель для ванной комнаты",
         "href": "http://mp-big-ru.local/yaroslavl/category/2077/",
         "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/3/40/64/6317238b834064-47198236.png",
-        "subitems": {
-            "1038": {
+        "subitems": [
+            {
                 "param_id": "1038",
                 "item": "Шкафы для ванной",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1038/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/f/61/f1/629dc9cc7f61f1-29140172.png"
             },
-            "1821": {
+            {
                 "param_id": "1821",
                 "item": "Тумбы для ванной",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1821/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/d/30/e2/629f18538d30e2-65871356.png"
             },
-            "2714": {
+           {
                 "param_id": "2714",
                 "item": "Стеллажи для ванной",
                 "is_empty": true,
                 "href": "http://mp-big-ru.local/yaroslavl/category/2714/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/e/b4/a9/63a07a43eeb4a9-07078907.png"
             }
-        },
+        ],
         "subitems_count": 4,
         "subitems_url": "s3_path/mebel-dlya-vannoy-komnaty_2077"
     },
@@ -156,26 +156,26 @@
         "item": "Детская мебель",
         "href": "http://mp-big-ru.local/yaroslavl/category/2168/",
         "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/7/47/e8/63107691a747e8-22910365.png",
-        "subitems": {
-            "2169": {
+        "subitems": [
+            {
                 "param_id": "2169",
                 "item": "Детские шкафы",
                 "href": "http://mp-big-ru.local/yaroslavl/category/2169/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/3/e0/18/6374b2f3f3e018-02854913.png"
             },
-            "2174": {
+            {
                 "param_id": "2174",
                 "item": "Детские стеллажи",
                 "href": "http://mp-big-ru.local/yaroslavl/category/2174/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/d/6f/12/63a2dce9cd6f12-99605158.png"
             },
-            "2175": {
+            {
                 "param_id": "2175",
                 "item": "Детские комоды",
                 "href": "http://mp-big-ru.local/yaroslavl/category/2175/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/c/0e/b7/63a970896c0eb7-03561013.png"
             }
-        },
+        ],
         "subitems_count": 10,
         "subitems_url": "s3_path/detskaya-mebel_2168"
     },
@@ -184,27 +184,27 @@
         "item": "Офисная мебель",
         "href": "http://mp-big-ru.local/yaroslavl/category/2311/",
         "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/3/24/28/63107818a32428-24338120.png",
-        "subitems": {
-            "2312": {
+        "subitems": [
+            {
                 "param_id": "2312",
                 "item": "Офисные кресла и стулья",
                 "href": "http://mp-big-ru.local/yaroslavl/category/2312/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/6/c7/20/63107839b6c720-74623312.png"
             },
-            "2315": {
+            {
                 "param_id": "2315",
                 "item": "Офисные столы",
                 "href": "http://mp-big-ru.local/yaroslavl/category/2315/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/1/67/a8/63a2dd3e1167a8-41662655.png"
             },
-            "2319": {
+            {
                 "param_id": "2319",
                 "item": "Сейфы",
                 "is_empty": true,
                 "href": "http://mp-big-ru.local/yaroslavl/category/2319/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/7/de/e8/63a2dd4927dee8-19350576.png"
             }
-        },
+        ],
         "subitems_count": 8,
         "subitems_url": "s3_path/ofisnaya-mebel_2311"
     },
@@ -213,26 +213,26 @@
         "item": "Гарнитуры и наборы мебели",
         "href": "http://mp-big-ru.local/yaroslavl/category/2718/",
         "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/5/6f/68/633eac1a256f68-57877085.png",
-        "subitems": {
-            "2719": {
+        "subitems": [
+            {
                 "param_id": "2719",
                 "item": "Стенки и гарнитуры для гостиной",
                 "href": "http://mp-big-ru.local/yaroslavl/category/2719/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/1/2e/68/633c2096412e68-13318132.png"
             },
-            "2720": {
+            {
                 "param_id": "2720",
                 "item": "Ванные гарнитуры",
                 "href": "http://mp-big-ru.local/yaroslavl/category/2720/"
             },
-            "2721": {
+            {
                 "param_id": "2721",
                 "item": "Комплекты мягкой мебели",
                 "is_empty": true,
                 "href": "http://mp-big-ru.local/yaroslavl/category/2721/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/1/2a/f1/63a97a2fa12af1-66534074.png"
             }
-        },
+        ],
         "subitems_count": 6,
         "subitems_url": "s3_path/garnitury-i-nabory-mebeli_2718"
     },
@@ -241,24 +241,24 @@
         "item": "Комплектующие для мебели",
         "href": "http://mp-big-ru.local/yaroslavl/category/1505/",
         "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/c/bf/05/62ab54bcccbf05-82474239.png",
-        "subitems": {
-            "1857": {
+        "subitems": [
+            {
                 "param_id": "1857",
                 "item": "Комплектующие корпусной мебели",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1857/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/3/13/28/62ab54c4b31328-46953906.png"
             },
-            "1858": {
+            {
                 "param_id": "1858",
                 "item": "Комплектующие для кроватей",
                 "href": "http://mp-big-ru.local/yaroslavl/category/1858/",
                 "image": "https://static10.teambig.ru/images/br/thumbnails/48/48/6/35/82/62ab54cc863582-25763310.png"
             },
-            "2725": {
+            {
                 "param_id": "2725",
                 "item": "Комплектующие для диванов и кресел",
                 "href": "http://mp-big-ru.local/yaroslavl/category/2725/"
             }
-        }
+        ]
     }
 ]
