@@ -14,15 +14,19 @@ const formatSubmenu = (submenu) => {
 }
 
 const generatePartMenu = (data) => {
-  const changedEl = data.subitems.forEach((item) => {
-    if ('subitems' in item) {
-      const submenuPart = Object.values(item.subitems).slice(0, 3);
+  data.forEach((item) => {
+    if (('subitems' in item)) {
+      const submenuData = Object.values(item.subitems);
+      const submenuPart = submenuData.slice(0, 3);
       item.subitems = formatSubmenu(submenuPart);
 
       const name= slugify(item.item) + '-' + item.param_id;
-      data.subitems_path = `${process.env.MENU_STORAGE_URL}/${name}.json`
 
-      generatePartMenu(item);
+      if (item.subitems.length) {
+        data.subitems_path = `${process.env.MENU_STORAGE_URL}/${name}.json`
+      }
+
+      generatePartMenu(submenuData);
       generateFileWithData(name, item);
     }
   });
@@ -36,11 +40,5 @@ readFile('./menu.json', 'utf8').then((res) => {
     menuItems.push(parsedJson[key]);
   }
 
-  menuItems.forEach((el) => {
-    let updatedMenu = null;
-
-    if ('subitems' in el) {
-      generatePartMenu(el);
-    }
-  });
+  generatePartMenu(menuItems);
 });

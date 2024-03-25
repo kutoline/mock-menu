@@ -1,0 +1,284 @@
+{
+  "param_id": "1001",
+  "item": "Мебель",
+  "icon": "bedroom",
+  "href": "https://tandem.online/yaroslavl/category/1001/mebel/",
+  "default_open": true,
+  "position": "10",
+  "image": "https://static.tandem.online/images/br/thumbnails/48/48/4/53/a1/6317ba8bc453a1-31594472.png",
+  "subitems": [
+    {
+      "param_id": "2059",
+      "item": "Корпусная мебель",
+      "href": "https://tandem.online/yaroslavl/category/2059/korpusnaya-mebel/",
+      "image": "",
+      "subitems": {
+        "1024": {
+          "param_id": "1024",
+          "item": "Шкафы ",
+          "href": "https://tandem.online/yaroslavl/category/1024/shkafy/",
+          "image": "https://static.tandem.online/images/br/thumbnails/48/48/8/9b/c5/61fd19f7c89bc5-38368694.png",
+          "subitems": [
+            {
+              "param_id": "1025",
+              "item": "Шкафы-купе",
+              "href": "https://tandem.online/yaroslavl/category/1025/shkafy-kupe/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1026",
+              "item": "Распашные шкафы",
+              "href": "https://tandem.online/yaroslavl/category/1026/raspashnye-shkafy/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1033",
+              "item": "Угловые шкафы",
+              "href": "https://tandem.online/yaroslavl/category/1033/uglovye-shkafy/",
+              "image": "",
+              "subitems": []
+            }
+          ],
+          "subitems_count": 5
+        },
+        "1027": {
+          "param_id": "1027",
+          "item": "Гардеробные системы",
+          "href": "https://tandem.online/yaroslavl/category/1027/garderobnye-sistemy/",
+          "image": "https://static.tandem.online/images/br/thumbnails/48/48/c/e9/f3/61fd1a095ce9f3-18188852.png"
+        },
+        "1047": {
+          "param_id": "1047",
+          "item": "Полки",
+          "href": "https://tandem.online/yaroslavl/category/1047/polki/",
+          "image": "https://static.tandem.online/images/br/thumbnails/48/48/2/d4/72/61cc5bd022d472-50208043.png"
+        },
+        "1048": {
+          "param_id": "1048",
+          "item": "Тумбы",
+          "href": "https://tandem.online/yaroslavl/category/1048/tumby/",
+          "image": "https://static.tandem.online/images/br/thumbnails/48/48/4/4a/a5/61fd1a31544aa5-33317770.png",
+          "subitems": [
+            {
+              "param_id": "1049",
+              "item": "Тумбы под телевизор",
+              "href": "https://tandem.online/yaroslavl/category/1049/tumby-pod-televizor/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1050",
+              "item": "Тумбы прикроватные",
+              "href": "https://tandem.online/yaroslavl/category/1050/tumby-prikrovatnye/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1241",
+              "item": "Обувницы",
+              "href": "https://tandem.online/yaroslavl/category/1241/obuvnicy/",
+              "image": "",
+              "subitems": []
+            }
+          ],
+          "subitems_count": 3
+        },
+        "1820": {
+          "param_id": "1820",
+          "item": "Комоды",
+          "href": "https://tandem.online/yaroslavl/category/1820/komody/",
+          "image": "https://static.tandem.online/images/br/thumbnails/48/48/e/83/50/6287b3caee8350-59594995.png"
+        },
+        "2784": {
+          "param_id": "2784",
+          "item": "Настенные вешалки",
+          "href": "https://tandem.online/yaroslavl/category/2784/nastennye-veshalki/"
+        }
+      }
+    },
+    {
+      "param_id": "2087",
+      "item": "Мягкая мебель",
+      "href": "https://tandem.online/yaroslavl/category/2087/myagkaya-mebel/",
+      "image": "",
+      "subitems": {
+        "1002": {
+          "param_id": "1002",
+          "item": "Диваны ",
+          "href": "https://tandem.online/yaroslavl/category/1002/divany/",
+          "image": "https://static.tandem.online/images/br/thumbnails/48/48/e/77/d5/61fd19971e77d5-97445207.png",
+          "subitems": [
+            {
+              "param_id": "1003",
+              "item": "Прямые диваны",
+              "href": "https://tandem.online/yaroslavl/category/1003/pryamye-divany/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1004",
+              "item": "Угловые диваны",
+              "href": "https://tandem.online/yaroslavl/category/1004/uglovye-divany/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1005",
+              "item": "Модульные диваны",
+              "href": "https://tandem.online/yaroslavl/category/1005/modulnye-divany/",
+              "image": "",
+              "subitems": []
+            }
+          ],
+          "subitems_count": 7
+        },
+        "1012": {
+          "param_id": "1012",
+          "item": "Кресла",
+          "href": "https://tandem.online/yaroslavl/category/1012/kresla/",
+          "image": "https://static.tandem.online/images/br/thumbnails/48/48/d/f3/06/61fd19b39df306-42174064.png",
+          "subitems": [
+            {
+              "param_id": "1013",
+              "item": "Мягкие кресла",
+              "href": "https://tandem.online/yaroslavl/category/1013/myagkie-kresla/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1014",
+              "item": "Кресла-качалки",
+              "href": "https://tandem.online/yaroslavl/category/1014/kresla-kachalki/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1015",
+              "item": "Кресла-кровати",
+              "href": "https://tandem.online/yaroslavl/category/1015/kresla-krovati/",
+              "image": "",
+              "subitems": []
+            }
+          ],
+          "subitems_count": 5
+        },
+        "1761": {
+          "param_id": "1761",
+          "item": "Пуфы и банкетки",
+          "href": "https://tandem.online/yaroslavl/category/1761/pufy-i-banketki/",
+          "image": "https://static.tandem.online/images/br/thumbnails/48/48/c/46/d4/631074707c46d4-68301296.png",
+          "subitems": [
+            {
+              "param_id": "2091",
+              "item": "Пуфы",
+              "href": "https://tandem.online/yaroslavl/category/2091/pufy/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "2092",
+              "item": "Банкетки",
+              "href": "https://tandem.online/yaroslavl/category/2092/banketki/",
+              "image": "",
+              "subitems": []
+            }
+          ],
+          "subitems_count": 2
+        },
+        "2088": {
+          "param_id": "2088",
+          "item": "Бескаркасная мебель",
+          "href": "https://tandem.online/yaroslavl/category/2088/beskarkasnaya-mebel/",
+          "subitems": [
+            {
+              "param_id": "1017",
+              "item": "Кресла-мешки",
+              "href": "https://tandem.online/yaroslavl/category/1017/kresla-meshki/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "2089",
+              "item": "Бескаркасные диваны",
+              "href": "https://tandem.online/yaroslavl/category/2089/beskarkasnye-divany/",
+              "image": "",
+              "subitems": []
+            }
+          ],
+          "subitems_count": 2
+        }
+      }
+    },
+    {
+      "param_id": "2105",
+      "item": "Кровати и матрасы",
+      "href": "https://tandem.online/yaroslavl/category/2105/krovati-i-matrasy/",
+      "image": "",
+      "subitems": {
+        "1077": {
+          "param_id": "1077",
+          "item": "Кровати ",
+          "href": "https://tandem.online/yaroslavl/category/1077/krovati/",
+          "image": "https://static.tandem.online/images/br/thumbnails/48/48/a/07/92/6287b46c1a0792-34468808.png",
+          "subitems": [
+            {
+              "param_id": "1078",
+              "item": "Односпальные кровати",
+              "href": "https://tandem.online/yaroslavl/category/1078/odnospalnye-krovati/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1079",
+              "item": "Полутораспальные кровати",
+              "href": "https://tandem.online/yaroslavl/category/1079/polutoraspalnye-krovati/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1080",
+              "item": "Двуспальные кровати",
+              "href": "https://tandem.online/yaroslavl/category/1080/dvuspalnye-krovati/",
+              "image": "",
+              "subitems": []
+            }
+          ],
+          "subitems_count": 7
+        },
+        "1086": {
+          "param_id": "1086",
+          "item": "Матрасы",
+          "href": "https://tandem.online/yaroslavl/category/1086/matrasy/",
+          "image": "https://static.tandem.online/images/br/thumbnails/48/48/a/e4/a2/61fd1aa86ae4a2-09389730.png",
+          "subitems": [
+            {
+              "param_id": "1087",
+              "item": "Односпальные матрасы",
+              "href": "https://tandem.online/yaroslavl/category/1087/odnospalnye-matrasy/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1088",
+              "item": "Полутораспальные матрасы",
+              "href": "https://tandem.online/yaroslavl/category/1088/polutoraspalnye-matrasy/",
+              "image": "",
+              "subitems": []
+            },
+            {
+              "param_id": "1089",
+              "item": "Двуспальные матрасы",
+              "href": "https://tandem.online/yaroslavl/category/1089/dvuspalnye-matrasy/",
+              "image": "",
+              "subitems": []
+            }
+          ],
+          "subitems_count": 4
+        }
+      }
+    }
+  ],
+  "subitems_count": 10
+}
