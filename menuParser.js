@@ -11,7 +11,7 @@ const formatSubmenu = (submenu) => {
   return submenu.map((item) => {
     if ('subitems' in item) {
 
-      item.subitems = Object.values(item.subitems)
+      item.subitems = Object.values(item.subitems).slice(0,3)
 
       if (item.subitems_count > 3) {
         const name= slugify(item.item) + '-' + item.param_id;
