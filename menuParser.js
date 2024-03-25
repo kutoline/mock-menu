@@ -13,15 +13,16 @@ const formatSubmenu = (submenu) => {
 
       item.subitems = Object.values(item.subitems).slice(0,3)
 
+      if (item.subitems_count > 3) {
+        const name= slugify(item.item) + '-' + item.param_id;
+        item['subitems_path'] = `${process.env.MENU_STORAGE_URL}/${name}.json`
+      }
+
       item.subitems.forEach((el) => {
         el.subitems = [];
         el.image = "";
         el.subitems_count = 0;
       })
-
-      if (item.subitems.length > 3) {
-        item.subitems_path = `${process.env.MENU_STORAGE_URL}/${name}.json`
-      }
     }
 
     return item;
