@@ -1,6 +1,9 @@
 import { writeFile, readFile } from 'fs/promises';
 import { slugify } from 'transliteration';
 import 'dotenv/config';
+import lodash from "lodash";
+
+const {cloneDeep} = lodash;
 
 const generateFileWithData = (fileName, data)  => {
   writeFile(`./menu_data/${fileName}.json`, JSON.stringify(data))
@@ -26,18 +29,18 @@ const formatSubmenu = (submenu) => {
     }
 
     return item;
-  });
+  }, []);
 }
 
 const generatePartMenu = (data, skip_item_data = false) => {
   data.forEach((item) => {
     if (('subitems' in item)) {
-      const submenuData = Object.values(item.subitems);
+      const submenuData = cloneDeep(Object.values(item.subitems));
+
       const formattedSubMenu = formatSubmenu(submenuData);
 
       const name= slugify(item.item) + '-' + item.param_id;
-
-      generatePartMenu(submenuData);
+      generatePartMenu(Object.values(item.subitems));
 
       if (formattedSubMenu.length) {
         generateFileWithData(name, formattedSubMenu);

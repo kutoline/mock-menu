@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.4.5",
+    "lodash": "^4.17.21",
     "transliteration": "^2.3.5",
     "url-safe-string": "^1.1.0"
   }
