@@ -37,11 +37,8 @@ const generatePartMenu = (data, skip_item_data = false) => {
 
       const name= slugify(item.item) + '-' + item.param_id;
 
-      if (skip_item_data) {
-        item = item.subitems
-      }
       generatePartMenu(submenuData);
-      generateFileWithData(name, item);
+      generateFileWithData(name, item.subitems);
     }
   });
 }
@@ -54,5 +51,5 @@ readFile('./menu.json', 'utf8').then((res) => {
     menuItems.push(parsedJson[key]);
   }
 
-  generatePartMenu(menuItems, true);
+  generatePartMenu(menuItems);
 });
