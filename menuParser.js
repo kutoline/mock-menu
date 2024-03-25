@@ -19,7 +19,7 @@ const formatSubmenu = (submenu) => {
       }
 
       item.subitems.forEach((el) => {
-        el.subitems = [];
+        el.subitems = el.subitems ? Object.values(el.subitems).slice(0,3) : [];
         el.image = "";
         el.subitems_count = 0;
       })
