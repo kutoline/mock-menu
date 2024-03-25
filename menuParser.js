@@ -11,8 +11,7 @@ const formatSubmenu = (submenu) => {
   return submenu.map((item) => {
     if ('subitems' in item) {
 
-      console.log(item.subitems)
-      item.subitems = Object.values(item.subitems).slice(0,3)
+      item.subitems = Object.values(item.subitems).slice(0,3);
       const name= slugify(item.item) + '-' + item.param_id;
 
       if (item.subitems_count > 3) {
@@ -34,12 +33,15 @@ const generatePartMenu = (data, skip_item_data = false) => {
   data.forEach((item) => {
     if (('subitems' in item)) {
       const submenuData = Object.values(item.subitems);
-      item.subitems = formatSubmenu(submenuData);
+      const formattedSubMenu = formatSubmenu(submenuData);
 
       const name= slugify(item.item) + '-' + item.param_id;
 
       generatePartMenu(submenuData);
-      generateFileWithData(name, item.subitems);
+
+      if (formattedSubMenu.length) {
+        generateFileWithData(name, formattedSubMenu);
+      }
     }
   });
 }
