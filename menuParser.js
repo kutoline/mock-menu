@@ -10,14 +10,21 @@ const generateFileWithData = (fileName, data)  => {
 const formatSubmenu = (submenu) => {
   return submenu.map((item) => {
     if ('subitems' in item) {
+
       item.subitems = Object.values(item.subitems).slice(0,3)
 
       item.subitems.forEach((el) => {
         el.subitems = [];
+        el.image = "";
+        el.subitems_count = 0;
       })
+
+      if (item.subitems.length > 3) {
+        item.subitems_path = `${process.env.MENU_STORAGE_URL}/${name}.json`
+      }
     }
 
-    return { param_id: item.param_id, item: item.item, href: item.href, image: '', subitems: item.subitems}
+    return item;
   });
 }
 
@@ -28,10 +35,6 @@ const generatePartMenu = (data, skip_item_data = false) => {
       item.subitems = formatSubmenu(submenuData);
 
       const name= slugify(item.item) + '-' + item.param_id;
-
-      if (item.subitems.length) {
-        data.subitems_path = `${process.env.MENU_STORAGE_URL}/${name}.json`
-      }
 
       if (skip_item_data) {
         item = item.subitems
