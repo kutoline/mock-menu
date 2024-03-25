@@ -11,7 +11,7 @@ const formatSubmenu = (submenu) => {
   return submenu.map((item) => {
     if ('subitems' in item) {
 
-      item.subitems = Object.values(item.subitems).slice(0,3)
+      item.subitems = Object.values(item.subitems)
 
       if (item.subitems_count > 3) {
         const name= slugify(item.item) + '-' + item.param_id;
@@ -20,7 +20,6 @@ const formatSubmenu = (submenu) => {
 
       item.subitems.forEach((el) => {
         el.subitems = el.subitems ? Object.values(el.subitems).slice(0,3) : [];
-        el.image = "";
         el.subitems_count = 0;
       })
     }
