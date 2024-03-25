@@ -11,16 +11,18 @@ const formatSubmenu = (submenu) => {
   return submenu.map((item) => {
     if ('subitems' in item) {
 
+      console.log(item.subitems)
       item.subitems = Object.values(item.subitems).slice(0,3)
+      const name= slugify(item.item) + '-' + item.param_id;
 
       if (item.subitems_count > 3) {
-        const name= slugify(item.item) + '-' + item.param_id;
         item['subitems_path'] = `${process.env.MENU_STORAGE_URL}/${name}.json`
       }
 
       item.subitems.forEach((el) => {
         el.subitems = el.subitems ? Object.values(el.subitems).slice(0,3) : [];
-        el.subitems_count = 0;
+        el.subitems_count = el.subitems_count > 0 ? el.subitems_count : 0;
+        el.subitems_path = el.subitems_count > 3 ? `${process.env.MENU_STORAGE_URL}/${name}.json` : ''
       })
     }
 
